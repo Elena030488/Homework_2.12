@@ -42,7 +42,7 @@ class CalculatorServiceImplTest {
     }
     @Test
     void shouldReturnCorrectDivide2() {
-        assertEquals(four / two, calculatorService.divide(four, one));
+        assertEquals(four / two, calculatorService.divide(four, two));
     }
     @Test
     void shouldThrowZeroDivisionException() {
